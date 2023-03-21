@@ -419,7 +419,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #login-caixa {
-    background-color: #ffffff6d;
+    background-color: #504f4f6d;
+    border: 1px solid #d3d3d3;
     width: 40%;
     height: auto;
     padding: 2%;
@@ -451,6 +452,7 @@ body::-webkit-scrollbar-thumb:hover {
     margin-top: 2%;
     font-size: 1.3em;
     border: none;
+    border-radius: 5px;
     padding: 1%;
 }
 
@@ -489,12 +491,14 @@ body::-webkit-scrollbar-thumb:hover {
 
 #contato {
     width: 80%;
-    height: 90vh;
+    height: auto;
     margin: 0px auto;
 }
 
 #contato input {
-    width: 40%;
+    width: 30%;
+    height: 5vh;
+    font-size: 1.1rem;
     margin: 0px auto;
     display: block;
 }
@@ -504,6 +508,20 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 2%;
     text-align: center;
     display: block;
+    border: none;
+    border-radius: 10px;
+    background-color: #29b0d2;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#contato input[type='submit']:hover {
+    background-color: #338093;
+}
+
+#data {
+    text-align: center;
 }
 
 #contato input[type='reset'] {
@@ -511,10 +529,22 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 2%;
     text-align: center;
     display: block;
+    border: none;
+    border-radius: 10px;
+    background-color: #ccc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#contato input[type='reset']:hover {
+    background-color: #7f7e7e;
 }
 
 #contato label {
     display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
     width: 100%;
     text-align: center;
     margin-top: 2%;
